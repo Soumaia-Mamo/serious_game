@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(90deg, rgba(242,222,243,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.form-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.form-wrapper h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #03e9f4;
+  text-align: center;
+}
+
+.form-wrapper .form-group {
+  position: relative;
+}
+
+.form-wrapper .form-group input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.form-wrapper .form-group label {
+  color: white;
+}
+
+
+
+.form-wrapper form p {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #f0f0f0;
+  font-size: 14px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.form-wrapper a {
+  color: #03e9f4;
+}
+
+.submit {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.submit input {
+  width: 50%;
+  background: none;
+  border: 1px solid white;
+}
+
+.submit input:hover {
+  background: #03e9f4;
+  border: 1px solid #03e9f4;
+}
+
+
+.submit-wrapper{
+    margin:30px 0   ;
+}
+
+.submit-wrapper input:first-child{
+    background: none;
+    border: 1px solid white;
+    width: 40%;
+}
+
+.submit-wrapper input:first-child:hover{
+    background: #03e9f4;
+    border: 1px solid #03e9f4;
+}
+
+.submit-wrapper input:last-child{
+  
+    width: 40%;
+}
+
